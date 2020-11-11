@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  background: url("../image/background.png") no-repeat;
+  background-size: 100% 100%;
+  min-width: 1280px;
+  height: 100%;
+}
+#user_text {
+  width: 73%;
+  font-size: 2.6vw;
+  margin: 10% 0 1% 10%;
+  font-family: PingFangSC-Semibold, PingFang SC;
+  font-weight: 600;
+  color: #ffffff;
+  line-height: 80px;
+  letter-spacing: 3px;
+}
+#line {
+  width: 9.4%;
+  height: 14px;
+  margin-left: 10%;
+  background: #ffc33d;
+  border-radius: 7px;
+}
+#opreat_button {
+  overflow: hidden;
+  margin-left: 10%;
+  margin-top: 5%;
+}
+#button_box {
+  float: left;
+  width: 13.5%;
+  height: 100px;
+  background: #ffffff;
+  border-radius: 8px;
+  cursor: pointer;
+  line-height: 100px;
+  text-align: center;
+
+  font-size: 1.6vw;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #333333;
+}
+#button_box:hover {
+  color: #0029b5;
+}
+#button_box:not(:first-of-type) {
+  margin-left: 4%;
+}
